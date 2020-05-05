@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="sentry-dingding-lz",
-    version='1.0.0',
+    version='1.0.1',
     author='leonzhang',
     author_email='leonzhang2008@gmail.com',
     url='https://github.com/leonzhang2008/sentry-dingding.git',
@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         'sentry.plugins': [
-            'sentry_dingding_lz = sentry_dingding.plugin:DingDingLzPlugin'
+            'sentry_dingding = sentry_dingding.plugin:DingDingPlugin'
         ]
     },
     classifiers=[
