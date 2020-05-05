@@ -15,8 +15,8 @@ class DingDingPlugin(NotificationPlugin):
     """
     Sentry plugin to send error counts to DingDing.
     """
-    author = 'ansheng'
-    author_url = 'https://github.com/anshengme/sentry-dingding'
+    author = 'leonzhang'
+    author_url = 'https://github.com/leonzhang2008/sentry-dingding.git'
     version = sentry_dingding.VERSION
     description = 'Send error counts to DingDing.'
     resource_links = [
